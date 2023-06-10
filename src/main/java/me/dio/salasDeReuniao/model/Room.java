@@ -2,7 +2,6 @@ package me.dio.salasDeReuniao.model;
 
 import jakarta.persistence.*;
 
-@Entity
 @Table(name = "salasdereuniao")
 public class Room {
 
@@ -79,5 +78,6 @@ public class Room {
                 ", starHour='" + starHour + '\'' +
                 ", endHour='" + endHour + '\'' +
                 '}';
+
     }
 }
