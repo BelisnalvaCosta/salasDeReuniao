@@ -13,6 +13,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@RestController @CrossOrigins(origins = "http://localhost:4288")
+@RequestMapping("/api/v1") 
 public class RoomController {
     @Autowired
     private RoomRepository roomRepository;
