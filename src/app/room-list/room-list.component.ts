@@ -23,3 +23,5 @@ describe('RoomListComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+export { RoomListComponent };
+

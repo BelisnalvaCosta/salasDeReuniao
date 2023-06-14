@@ -7,6 +7,7 @@ import { CreateRoomComponent } from './create-room/create-room.component';
 import { RoomDetailsComponent } from './room-details/room-details.component';
 import { RoomListComponent } from './room-list/room-list.component';
 import { UpdateRoomComponent } from './update-room/update-room.component';
+import { RoomComponent } from './room';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UpdateRoomComponent } from './update-room/update-room.component';
     CreateRoomComponent,
     RoomDetailsComponent,
     RoomListComponent,
-    UpdateRoomComponent
+    UpdateRoomComponent,
+    RoomComponent
   ],
   imports: [
     BrowserModule,
