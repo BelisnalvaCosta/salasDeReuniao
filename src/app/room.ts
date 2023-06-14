@@ -1,5 +1,5 @@
 export class Room {
-  id: number | undefined;
+  id!: number;
   name!: string;
   date!: string;
   startHour!: string;
