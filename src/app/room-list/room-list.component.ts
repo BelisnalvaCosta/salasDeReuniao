@@ -1,10 +1,25 @@
-import { Component } from '@angular/core';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-@Component({
-  selector: 'app-room-list',
-  templateUrl: './room-list.component.html',
-  styleUrls: ['./room-list.component.css']
-})
-export class RoomListComponent {
+import { RoomListComponent } from './room-list.component';
 
-}
+describe('RoomListComponent', () => {
+  let component: RoomListComponent;
+  let fixture: ComponentFixture<RoomListComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ RoomListComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(RoomListComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
