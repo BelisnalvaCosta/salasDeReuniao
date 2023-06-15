@@ -1,7 +1,8 @@
 # salasDeReuniao
-Projeto para programação de salas para reuniões(nome, data de inicio e fim, horário das reuniões).
+Projeto salas para reuniões(nome, data de inicio e fim, horário das reuniões), tem o objetivo de programar eventos.
 
-Neste projeto o Back-end foi feito na IDE Intellij e o Front-end no Visual Studio Code.
+Neste projeto o Back-end foi feito na IDE Intellij e o Front-end no Visual Studio Code(front-end/client-room).
+Path: ./create-room/create-room.component
 
 #  Tecnologia  utilizadas:
 ##  Back-end
@@ -9,7 +10,7 @@ Neste projeto o Back-end foi feito na IDE Intellij e o Front-end no Visual Studi
 -  Jpa/Hibernate
 -  Maven
 -  Spring Boot
--  Lombock
+-  Lombok
 -  H2
 
 -  ##  Dependência acrescentada:
@@ -17,18 +18,21 @@ Neste projeto o Back-end foi feito na IDE Intellij e o Front-end no Visual Studi
 
 ## Front-end
  - Angular/cli(packages and components)
- - Bootstrap
+ - Bootstrap Jquery
 
 ###  Observação: para executar e visualizar o Get, Post, Put and Delet.
 Postman
+Heroku
 
 ### Preencher
 * [dados] (https://github.com/...)
 
 //Exemplos de Portas: 8080, 8081, 8087, etc
 
+$  http://localhost:4288  ou
+porta 8082
 ```
-$  http://localhost:8087   db
+url=jdbc:h2:mem:salasdereuniaodb
 ```
 
 //Agora  é só jogar  o  Projeto  no  github
