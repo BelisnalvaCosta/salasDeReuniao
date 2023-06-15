@@ -2,6 +2,12 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
+      <a routerLink="employees" class="nav-link" routerLinkActive="active">Creste Room</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="employees" class="nav-link" routerLinkActive="active">Room details</a>
+    </li>
+    <li class="nav-item">
         <a routerLink="employees" class="nav-link" routerLinkActive="active">Room List</a>
     </li>
     <li class="nav-item">
@@ -11,8 +17,8 @@
 </nav>
 <div class="container">
   <br>
-  <h2 style="text-align: center;">{{title}}</h2>
-  <hr>  
+  <h2 style="text-align: center;">{{Client Room}}</h2>
+  <hr>
   <div class="card">
     <div class="card-body">
   <router-outlet></router-outlet>
@@ -22,6 +28,6 @@
 
 <footer class="footer">
   <div class="container">
-      <span>Projeto Salas de reuniões - DIO.me - Belisnalva C. P. Jesus</span>
+      <span>Projeto Salas de reunioes - DIO.me - Belisnalva C. P. Jesus</span>
   </div>
 </footer>
