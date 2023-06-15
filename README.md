@@ -1,5 +1,5 @@
 # salasDeReuniao
-Projeto salas para reuniões(nome, data de inicio e fim, horário das reuniões), tem o objetivo de programar eventos[^1].
+Projeto salas para reuniões(nome, data de inicio e fim, horário das reuniões), tem o objetivo de programar eventos[^1]
 
 Neste projeto o Back-end foi feito na IDE Intellij e o Front-end no Visual Studio Code(front-end/client-room).
 Path: ./create-room/create-room.component
